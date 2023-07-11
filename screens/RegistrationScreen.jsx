@@ -16,7 +16,7 @@ import {
 
 const initialState = {
     email: '',
-    login: '',
+    name: '',
     password: ''
 }
 
@@ -67,9 +67,9 @@ export const RegistretionScreen = () => {
                                     style={styles.input}
                                     marginBottom={16}
                                     placeholder="Логін"
-                                    value={state.login}
+                                    value={state.name}
                                     onChangeText={(value) =>
-                                        setState((prevState) => ({ ...prevState, login: value }))
+                                        setState((prevState) => ({ ...prevState, name: value }))
                                     }
                                     onFocus={() => setIsShowKeyboard(true)}
                                 />

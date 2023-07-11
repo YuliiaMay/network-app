@@ -1,6 +1,8 @@
 import { useFonts } from 'expo-font';
 import { StyleSheet } from 'react-native';
-import { RegistretionScreen } from './screens/RegistrationScreen';
+// import { RegistretionScreen } from './screens/RegistrationScreen';
+import { LoginScreen } from './screens/LoginScreen';
+
 
 
 export default function App() {
@@ -14,22 +16,12 @@ export default function App() {
     return null;
   };
   return (
-    <RegistretionScreen/>
+    // <RegistretionScreen />
+    <LoginScreen/>
   );
 }
 
 const styles = StyleSheet.create({
-    // container: {
-    //     flex: 1,
-    //     backgroundColor: '#FFFFFF',
-    // },
-    // image: {
-    //     flex: 1,
-    //     resizeMode: "cover"
-    // },
-    // form: {
-    //     backgroundColor: '#FFFFFF',
-    //     borderRadius: 25
-    // }
+// 
 });
 
